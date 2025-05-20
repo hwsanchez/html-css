@@ -1,1 +1,1 @@
-Applying interesting html and css concepts
+Applying interesting html and css concepts. In this profiles page the responsive design is achieved using display: grid and manipulating grid related attributes like gap, grid-template-columns, grid-row-start, etc.
