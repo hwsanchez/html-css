@@ -1,0 +1,73 @@
+body {
+    background-color: #cbcaca;
+}
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.profiles-grid {
+    display:grid;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.profile {
+  
+    background-color: #4b4e53;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 10px;
+}
+
+.profile:last-child {
+ grid-row-start: 1;
+ grid-column-start: 4;
+ grid-row-end: span 2;
+}
+
+.profile2 {
+    background-color: white;
+    color: #49556b;
+    padding: 18px 30px;
+    border-radius: 10px;
+}
+
+
+.header {
+    display:flex;
+    font-family: sans-serif;
+    padding-bottom: 16px;;
+
+
+}
+
+.headerInfo {
+    padding-left: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email {
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 2px;;
+    
+}
+
+.testimonial {
+    font-size: var(--fs-400);
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
